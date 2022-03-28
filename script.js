@@ -1,5 +1,7 @@
 // Start your code ***HERE*** =========
 
+var password=document.getElementById("password");
+
 // create an array with all possible character types: Uppercase, Lowercase, numbers, and symbols stored in a variable
 
 const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
