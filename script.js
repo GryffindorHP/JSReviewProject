@@ -11,7 +11,12 @@ const pwLength = (min, max) => Array.from({ length: max - min + 1 }, (_, i) => m
 
 // Using the above array and password length variable, create a random password using a for loop inside of a function called "addNewPassword" either saved as an arrow function variable or a traditional function
 
-
+ 
+function addNewPassword () {
+for (var i = 0; i <= passwordLength; i++) {
+   var randomNumber = Math.floor(Math.random() * chars.length);
+   password += chars.substring(randomNumber, randomNumber +1);
+  }
 
 
 
